@@ -2,6 +2,8 @@
 
 Elgg plugin for register/sign in using Facebook, Google and Linkedin.
 
+![Social SignIn screenshot](screenshot.jpg)
+
 ## Prerequistes
 
 - Elgg 2.3.X
