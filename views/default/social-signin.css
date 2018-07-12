@@ -1,0 +1,32 @@
+.btn-social {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer; }
+
+.btn-social > i {
+  font-size: 24px;
+  line-height: 35px;
+  color: white; }
+
+.btn-social:hover {
+  -webkit-box-shadow: 3px 4px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 4px 13px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 4px 13px 0px rgba(0, 0, 0, 0.75);
+  color: #f7f7f7; }
+
+.btn-facebook, .btn-facebook:visited {
+  background-color: #3b5998;
+  color: white; }
+
+.btn-google, .btn-google:visited {
+  background-color: #d62d20;
+  color: white; }
+
+.btn-linkedin, .btn-linkedin:visited {
+  background-color: #0077b5;
+  color: white; }

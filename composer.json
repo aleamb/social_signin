@@ -1,0 +1,21 @@
+{
+  "name": "rsic/social_signin",
+  "description": "Plugin for login through Facebook, Google and Linkedin",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "aleamb",
+          "email": "jandroz@gmail.com"
+      }
+  ],
+  "require": {
+    "google/apiclient": "2.0",
+    "facebook/graph-sdk": "^5.6"
+  },
+  "autoload": {
+        "psr-4": { "SocialSignInPlugin\\": "lib/" }
+  },
+  "require-dev": {
+  }
+}

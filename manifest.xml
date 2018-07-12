@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+        <id>social_signin</id>
+        <name>Social SignIn</name>
+        <author>Alejandro Ambroa</author>
+        <version>1.0</version>
+        <blurb>Facebook, Google and Linkedin sign in for Elgg</blurb>
+        <description>Sign-in with Linkedin, Facebook and Google</description>
+        <website></website>
+        <copyright>(c) Alejandro Ambroa.</copyright>
+        <license>MIT</license>
+        <category>bundled</category>
+	      <category>communication</category>
+	      <category>content</category>
+        <category>social</category>
+        <requires>
+                <type>elgg_release</type>
+                <version>2.3.5</version>
+        </requires>
+</plugin_manifest>
