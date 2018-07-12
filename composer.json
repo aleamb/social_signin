@@ -1,5 +1,5 @@
 {
-  "name": "rsic/social_signin",
+  "name": "aleamb/social_signin",
   "description": "Plugin for login through Facebook, Google and Linkedin",
   "type": "library",
   "license": "MIT",
