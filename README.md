@@ -30,7 +30,13 @@ composer install
 
 ### Edit styles
 
-Plugin includes a SASS files for development styles. For generate CSS, you need Nodejs and Gulp
+Plugin includes a SASS files for development styles. For generate CSS, you need Nodejs and Gulp.
+
+Run
+
+```
+npm install
+```
 
 Edit SASS files inside scss directory and generate css with:
 
