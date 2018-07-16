@@ -28,6 +28,7 @@ class SocialSignIn
 {
 
     const SOCIALSN_PLUGIN_NAME = 'social_signin';
+
     /**
      * Constructor
      */

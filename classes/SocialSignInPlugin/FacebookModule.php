@@ -43,8 +43,7 @@ class FacebookModule extends SocialModule
             $this->setAppSecretId('Create application and get client secret ID from Facebook developers console.');
         }
     }
-
-
+    
     /**
      * Register elgg views.
      *

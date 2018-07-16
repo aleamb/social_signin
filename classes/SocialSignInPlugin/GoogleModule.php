@@ -57,8 +57,7 @@ class GoogleModule extends SocialModule
     {
         return 'gl_clientId';
     }
-
-
+    
     public function retrieveUserSocialProfile($attributes)
     {
         $client = new \Google_Client(['client_id' => $this->getAppId()]);

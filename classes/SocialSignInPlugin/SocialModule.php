@@ -116,7 +116,6 @@ abstract class SocialModule
         return $entities[0];
     }
 
-
     public function generateUsername($socialUser)
     {
         $name = trim($socialUser->firstName);
@@ -171,6 +170,7 @@ abstract class SocialModule
             $this->getAppClientIdSettingName(),
              $this->getSocialSignInPluginName());
     }
+
     /**
      * Sets Client id
      *

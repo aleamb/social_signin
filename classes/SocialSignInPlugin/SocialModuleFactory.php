@@ -19,7 +19,6 @@ class SocialModuleFactory
 
     const MODULES = [self::FACEBOOK_MODULE_ID, self::GOOGLE_MODULE_ID, self::LINKEDIN_MODULE_ID];
 
-
     /**
      * Build a SocialModule instance by id.
      *

@@ -10,7 +10,6 @@
  * @version   $Id$
  * @link      https://github.com/aleamb/social_signin
  */
-
 namespace SocialSignInPlugin;
 
 /**

@@ -38,7 +38,6 @@ class LinkedinModule extends SocialModule
         }
     }
 
-
     /**
      * Register elgg views.
      *
@@ -110,7 +109,7 @@ class LinkedinModule extends SocialModule
     }
 
    /**
-     * Retrieve information of linkedin user profile
+     * Retrieve information of Linkedin user's profile
      *
      * @param string $token Linkedin token
      *
