@@ -9,6 +9,9 @@
  * @version   $Id$
  * @link      https://github.com/aleamb/social_signin
  */
+elgg_load_js('facebook-sdk');
+$socialSigIn = new SocialSignInPlugin\SocialSignIn();
+$facebookModule = SocialSignInPlugin\SocialModuleFactory::create(SocialSignInPlugin\SocialModuleFactory::FACEBOOK_MODULE_ID, $socialSigIn);
 ?>
 <script>
   window.fbAsyncInit = function() {
