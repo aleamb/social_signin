@@ -9,7 +9,7 @@
  * @version   $Id$
  * @link      https://github.com/aleamb/social_signin
  */
-
+elgg_load_js('google-sdk');
 $socialSigIn = new SocialSignInPlugin\SocialSignIn();
 $googleModule = SocialSignInPlugin\SocialModuleFactory::create(SocialSignInPlugin\SocialModuleFactory::GOOGLE_MODULE_ID, $socialSigIn);
 

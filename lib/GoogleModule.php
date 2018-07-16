@@ -45,7 +45,7 @@ class GoogleModule extends SocialModule
      */
     public function registerElggViews()
     {
-        elgg_extend_view('page/elements/head', 'social_google/head');
+        elgg_register_js('google-sdk', 'https://apis.google.com/js/platform.js?onload=startGoogle');
     }
 
     public function getAppClientIdSettingName()
