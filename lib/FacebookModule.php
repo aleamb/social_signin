@@ -52,7 +52,7 @@ class FacebookModule extends SocialModule
      */
     public function registerElggViews()
     {
-        elgg_extend_view('page/elements/head', 'social_facebook/head');
+       elgg_register_js('facebook-sdk', 'https://connect.facebook.net/' . get_current_language() . '/sdk.js');
     }
 
     public function getAppClientIdSettingName()

@@ -11,6 +11,16 @@
  */
 ?>
 <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId: '<?php echo $facebookModule->getAppId();  ?>',
+      cookie: false,
+      xfbml: true,
+      version: 'v2.8'
+  });
+ }
+</script>
+<script>
   function fb_login() {
       FB.login(function(response) {
           if (response.authResponse) {
